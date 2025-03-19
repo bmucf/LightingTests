@@ -88,7 +88,7 @@ MonoBehaviour:
         - serializedVersion: 3
           time: 0
           value: 0
-          inSlope: 1
+          inSlope: 0
           outSlope: 1
           tangentMode: 0
           weightedMode: 0
@@ -98,7 +98,7 @@ MonoBehaviour:
           time: 1
           value: 1
           inSlope: 1
-          outSlope: 1
+          outSlope: 0
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
@@ -119,7 +119,7 @@ MonoBehaviour:
         - serializedVersion: 3
           time: 0
           value: 0
-          inSlope: 1
+          inSlope: 0
           outSlope: 1
           tangentMode: 0
           weightedMode: 0
@@ -129,7 +129,7 @@ MonoBehaviour:
           time: 1
           value: 1
           inSlope: 1
-          outSlope: 1
+          outSlope: 0
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
@@ -151,42 +151,15 @@ MonoBehaviour:
         m_PostInfinity: 2
         m_RotationOrder: 4
   hueVsSat:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value:
-      <length>k__BackingField: 3
+      <length>k__BackingField: 0
       m_Loop: 1
       m_ZeroValue: 0.5
       m_Range: 1
       m_Curve:
         serializedVersion: 2
-        m_Curve:
-        - serializedVersion: 3
-          time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        - serializedVersion: 3
-          time: 0.24916944
-          value: 0
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        - serializedVersion: 3
-          time: 0.7707641
-          value: 0
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
+        m_Curve: []
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
@@ -301,25 +274,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   mode:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   color:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: {r: 0, g: 0, b: 0, a: 1}
   center:
     m_OverrideState: 0
     m_Value: {x: 0.5, y: 0.5}
   intensity:
     m_OverrideState: 1
-    m_Value: 0.5
+    m_Value: 0.675
   smoothness:
-    m_OverrideState: 0
-    m_Value: 0.2
+    m_OverrideState: 1
+    m_Value: 0.111
   roundness:
-    m_OverrideState: 0
-    m_Value: 1
+    m_OverrideState: 1
+    m_Value: 0
   rounded:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   mask:
     m_OverrideState: 0
@@ -327,6 +300,31 @@ MonoBehaviour:
   opacity:
     m_OverrideState: 0
     m_Value: 1
+--- !u!114 &-3593587022525525330
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a6b00fcf518bb94a90b408492e07b44, type: 3}
+  m_Name: FilmGrain
+  m_EditorClassIdentifier: 
+  active: 1
+  type:
+    m_OverrideState: 1
+    m_Value: 3
+  intensity:
+    m_OverrideState: 1
+    m_Value: 1
+  response:
+    m_OverrideState: 1
+    m_Value: 1
+  texture:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -344,6 +342,7 @@ MonoBehaviour:
   - {fileID: -6990923465359599501}
   - {fileID: 415213814901069871}
   - {fileID: -7571821622848593639}
+  - {fileID: -3593587022525525330}
 --- !u!114 &415213814901069871
 MonoBehaviour:
   m_ObjectHideFlags: 3
